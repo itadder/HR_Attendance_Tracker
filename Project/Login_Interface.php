@@ -102,6 +102,18 @@ switch ($command)
    $login->addNewUser($username,$password,$privilegeLevel,$cArgs[0]);
     break;
 
+case 'runprogram':
+  $login = new loginDB("logindb.ini");
+  if ($login->validateUser($username,$password))
+   {
+      echo "Hello $username!!!".PHP_EOL;
+   }
+   else
+   {
+      echo "password does not validate!".PHP_EOL;
+   }
+  break;
+
 }
 
 ?>
