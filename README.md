@@ -8,4 +8,5 @@
 Run my php program
 #example
 
-php Attedance_Tracker.php -u jgarcia1 -p asdfasdf -l Employee -c addNewUser
+php Attedance_Tracker.php -u jgarcia1 -p asdfasdf -l Employee -c addNewUser  <-- This was old way to add to mysql db.
+php collection.php -u jgarcia1 -p asdfasdf -l Employee -c addNewUser <-- adds it to Mongo DB.
