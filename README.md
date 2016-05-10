@@ -9,4 +9,4 @@ Run my php program
 #example
 
 php Attedance_Tracker.php -u jgarcia1 -p asdfasdf -l Employee -c addNewUser
-php Attedance_Tracker.php -u jgarcia1 -p asdfasdf -l employee -c ViewRemainderSickDays
+#php Attedance_Tracker.php -u jgarcia1 -p asdfasdf -l employee -c ViewRemainderSickDays
